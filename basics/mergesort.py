@@ -9,6 +9,7 @@ def debug_print(debug_msg=None, **kwargs):
 
 def mergesort(array):
     if len(array) <= 1:
+        debug_print(array=array)  # Log for single-element arrays
         return array
 
     # Debug: Print the array being split
